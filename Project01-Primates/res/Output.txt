@@ -1,0 +1,22 @@
+The complete list of animals in Sanctuary is :
+Monkey id: 1 Name:Pale-headed Saki Troop: Pithecia Sex: Male Weight: 1 Size: 20 food: eggs age: 2 Healthy:true inIsolation: false
+Monkey id: 5 Name:Pale-headed Saki Troop: Pithecia Sex: Male Weight: 1 Size: 40 food: Sap age: 2 Healthy:true inIsolation: false
+Monkey id: 4 Name:Guereza Troop: Colobus guereza Sex: Male Weight: 1 Size: 15 food: nuts age: 2 Healthy:true inIsolation: false
+Monkey id: 3 Name:Black and gold howler Troop: Alouatta Caraya Sex: Male Weight: 1 Size: 17 food: Leaves age: 2 Healthy:true inIsolation: false
+Monkey id: 2 Name:Cotton-Top Tamarin Troop: Sagnius oedipus Sex: Male Weight: 1 Size: 22 food: apple age: 2 Healthy:true inIsolation: false
+
+The Species that are present in Sanctuary Sorted Alphabeticaly are: 
+[Alouatta Caraya, Colobus guereza, Pithecia, Pithecia, Sagnius oedipus]
+
+The species present in enclosure are:
+Colobus guereza
+Pithecia
+Alouatta Caraya
+Sagnius oedipus
+
+The enclosure board details are: 
+The Monkey's name is Pale-headed Saki and is of the sex Male. The monkey likes to eat Sap.
+The Monkey's name is Guereza and is of the sex Male. The monkey likes to eat nuts.
+The Monkey's name is Black and gold howler and is of the sex Male. The monkey likes to eat Leaves.
+The Monkey's name is Cotton-Top Tamarin and is of the sex Male. The monkey likes to eat apple.
+The Monkey's name is Pale-headed Saki and is of the sex Male. The monkey likes to eat eggs.

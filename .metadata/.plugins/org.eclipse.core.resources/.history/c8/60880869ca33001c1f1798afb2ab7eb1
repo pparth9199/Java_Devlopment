@@ -1,0 +1,27 @@
+package polynomial;
+
+public class Monomial {
+  private final int degree;
+  private int coEfficient;
+
+  public Monomial(int coefficient, int degree) {
+    this.coEfficient = coefficient;
+    this.degree = degree;
+  }
+
+  public int getCoEfficient() {
+    return this.coEfficient;
+  }
+
+  public int getPower() {
+    return this.degree;
+  }
+
+  public String toString() {
+    if (this.degree > 0) {
+      return "" + this.coEfficient + "x^" + this.degree;
+    } else {
+      return "" + this.coEfficient;
+    }
+  }
+}

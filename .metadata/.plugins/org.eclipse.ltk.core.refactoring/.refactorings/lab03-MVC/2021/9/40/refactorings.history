@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;lab03-MVC/src/tictactoe&apos;&#x0A;- Original project: &apos;lab03-MVC&apos;&#x0A;- Destination element: &apos;lab03-MVC/src/tictactoe&apos;&#x0A;- Original elements:&#x0A;     TicTacToeModel.java&#x0A;     Player.java&#x0A;     TicTacToe.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;tictactoe" element1="/src&lt;{TicTacToeModel.java" element2="/src&lt;{Player.java" element3="/src&lt;{TicTacToe.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1632777485110" units="3" version="1.0"/>
+</session>

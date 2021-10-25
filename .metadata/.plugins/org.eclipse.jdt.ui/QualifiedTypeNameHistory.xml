@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
+    <fullyQualifiedTypeName name="battle.Arena"/>
+    <fullyQualifiedTypeName name="battle.Player"/>
+    <fullyQualifiedTypeName name="battle.PlayerClass"/>
+    <fullyQualifiedTypeName name="battle.Gear"/>
+    <fullyQualifiedTypeName name="battle.GearClass"/>
+    <fullyQualifiedTypeName name="battle.Weapons"/>
+    <fullyQualifiedTypeName name="battle.WeaponsClass"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="polynomial.Polynomial"/>
+    <fullyQualifiedTypeName name="polynomial.PolynomialImpl"/>
+    <fullyQualifiedTypeName name="polynomial.Monomial"/>
+    <fullyQualifiedTypeName name="polynomial.PolynomialListAdt"/>
+    <fullyQualifiedTypeName name="polynomial.PolynomialListAdtImpl"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="org.hamcrest.Matcher"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="polytest.PolynomialImplTest"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+</qualifiedTypeNameHistroy>

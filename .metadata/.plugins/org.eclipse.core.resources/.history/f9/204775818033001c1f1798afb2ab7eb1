@@ -1,0 +1,25 @@
+package polynomial;
+
+public class Monomial {
+  private final int degree;
+  private int coEfficient;
+
+  public Monomial(int coefficient, int degree) {
+    this.coEfficient = coefficient;
+    this.degree = degree;
+  }
+
+  public int getCoEfficient() {
+    return this.coEfficient;
+  }
+
+  public int getPower() {
+    return this.degree;
+  }
+  
+  public int getEvaluate(double x) {
+    double sum = 0;
+    sum = this.coEfficient*Math.pow(x, this.degree);
+    return sum;
+  }
+}

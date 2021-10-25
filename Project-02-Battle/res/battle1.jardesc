@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="Project-02-Battle/Battle1.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Project-02-Battle/battle1.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=Project-02-Battle/src&lt;battle{Driver.java[Driver" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=Project-02-Battle/src"/>
+        <file path="/Project-02-Battle/battle.jardesc"/>
+        <file path="/Project-02-Battle/.classpath"/>
+        <file path="/Project-02-Battle/.project"/>
+        <file path="/Project-02-Battle/Battle.jar"/>
+    </selectedElements>
+</jardesc>

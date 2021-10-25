@@ -1,0 +1,68 @@
+package polynomial;
+
+/**
+ * This class represents an element node in the list adt implementation.
+ */
+public class PolynomialListADTElementNode implements PolynomialAdtNode {
+  private Monomial polynomial;
+  private PolynomialAdtNode rest;
+
+  public PolynomialListADTElementNode(Monomial p, PolynomialAdtNode rest) {
+    this.polynomial = p;
+    this.rest = rest;
+  }
+
+  @Override
+  public int count() {
+    return 1 + this.rest.count();
+  }
+
+  @Override
+  public PolynomialAdtNode addFront(Monomial polynomial) {
+    return new PolynomialListAdtElementNode(polynomial, this);
+  }
+
+  @Override
+  public PolynomialAdtNode addBack(Monomial polynomial) {
+    this.rest = this.rest.addBack(polynomial);
+    return this;
+  }
+
+  @Override
+  public PolynomialAdtNode add(int index, Monomial polynomial) {
+    if (index == 0) {
+      return addFront(polynomial);
+    } else {
+      this.rest = this.rest.add(index - 1, polynomial);
+      return this;
+    }
+  }
+
+  @Override
+  public PolynomialAdtNode remove(Monomial polynomial) {
+    if (this.polynomial.equals(polynomial)) {
+      return this.rest;
+    } else {
+      this.rest = this.rest.remove(polynomial);
+      return this;
+    }
+  }
+
+  @Override
+  public Monomial get(int index) throws IllegalArgumentException {
+    if (index == 0) {
+      return this.polynomial;
+    }
+
+    return this.rest.get(index - 1);
+  }
+
+  @Override
+  public String toString() {
+    String returnString = this.polynomial.toString();
+    if (this.polynomial.getCoefficient() > 0) {
+      returnString = "+" + returnString;
+    }
+    return returnString + " " + this.rest.toString();
+  }
+}

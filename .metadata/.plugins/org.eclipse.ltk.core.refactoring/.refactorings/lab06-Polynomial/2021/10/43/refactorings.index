@@ -1,0 +1,20 @@
+1634771039786	Rename type 'polynomia'
+1634780082486	Delete element
+1634780086483	Delete element
+1634786202654	Rename type 'ListAdt'
+1634786229954	Rename type 'ListAdtImpl'
+1634786241342	Rename type 'GenericListAdtNode'
+1634786251374	Rename type 'GenericEmptyNode'
+1634786266660	Rename type 'GenericElementNode'
+1634786282241	Rename type 'Polynomia'
+1634802065595	Rename type 'PloynomialImpl'
+1634846028937	Delete elements
+1634846169066	Move compilation units
+1634846228430	Rename type 'PolynomialADTNode'
+1634846267022	Rename type 'PolynomialListADT'
+1634846278383	Rename type 'PolynomialListADTElementNode'
+1634846288175	Rename type 'PolynomialListADTEmptyNode'
+1634846300093	Rename type 'PolynomialListADTImpl'
+1634846559919	Rename local variable 'polynomial'
+1634846569081	Rename local variable 'polynomial'
+1634855491142	Rename package 'polyTest'

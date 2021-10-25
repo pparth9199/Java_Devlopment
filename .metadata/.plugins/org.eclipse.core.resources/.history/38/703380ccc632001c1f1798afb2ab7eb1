@@ -1,0 +1,28 @@
+package polynomial;
+
+public class Monomial {
+  private final int degree;
+  private int coEfficient;
+
+  public Monomial(int... polyTerms) {
+if (polyTerms>0) {
+    this.coEfficient = polyTerms[0];
+    if (polyTerms.length > 1) {
+      this.degree = polyTerms[1];
+    } else {
+      this.degree = 0;
+    }}
+  }
+
+  public int getCoEfficient() {
+    return this.coEfficient;
+  }
+
+  public void updateCoeffiecient(int coefficient) {
+    this.coEfficient = coefficient;
+  }
+
+  public int getPower() {
+    return this.degree;
+  }
+}

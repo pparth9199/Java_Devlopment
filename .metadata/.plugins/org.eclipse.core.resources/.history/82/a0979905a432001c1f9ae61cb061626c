@@ -1,0 +1,20 @@
+package polynomial;
+
+public class Monomial {
+  private final int degree;
+  private final int coEfficient;
+  
+  
+  Monomial(int ... polyTerms){
+    
+  }
+
+  public int getCoEfficient() {
+    return this.coEfficient;
+  }
+  
+  
+  public int getPower() {
+    return this.degree;
+  }
+}

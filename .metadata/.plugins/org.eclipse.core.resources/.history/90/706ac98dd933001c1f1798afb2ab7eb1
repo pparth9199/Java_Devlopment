@@ -1,0 +1,110 @@
+package polytest;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+import org.junit.Test;
+import polynomial.Polynomial;
+import polynomial.PolynomialImpl;
+
+/**
+ * The test class for the polynomial implementation.
+ * 
+ * @author parthpatel
+ *
+ */
+public class PolynomialImplTest {
+  private Polynomial p;
+
+  /**
+   * The setup method for the polynomial constructor.
+   * 
+   * @throws Exception throws illegal asrgument exception.
+   */
+  @Before
+  public void setUp() throws Exception {
+    p = new PolynomialImpl("2x^2 +3x^1 -3 +2x^2");
+  }
+
+  /**
+   * Testing getCoefficient method for right positive answer.
+   */
+  @Test
+  public void getCoefficientTest() {
+    assertEquals(4, p.getCoefficient(2));
+  }
+
+  /**
+   * Testing getCoefficient method for 0.
+   */
+  @Test
+  public void getCoefficientTestZero() {
+    assertEquals(0, p.getCoefficient(6));
+  }
+
+  /**
+   * Testiing the getDegree method.
+   */
+  @Test
+  public void getDegreeTest() {
+    assertEquals(2, p.getDegree());
+  }
+
+  /**
+   * Testiing the getDegree method for constant.
+   */
+  @Test
+  public void getDegreeTestzero() {
+    Polynomial pz = new PolynomialImpl("1");
+    assertEquals(0, pz.getDegree());
+  }
+
+  /**
+   * Testing evaluate method for positive x.
+   */
+  @Test
+  public void getEvaluatePositive() {
+    assertEquals(4, p.evaluate(1), 0.0f);
+  }
+
+  /**
+   * Testing evaluate method for negative x.
+   */
+  @Test
+  public void getEvaluateNegative() {
+    assertEquals(-2, p.evaluate(-1), 0.0f);
+  }
+
+  /**
+   * Testing isSame for 0.
+   */
+  @Test
+  public void getisSameTestZero() {
+    assertEquals(false, p.isSame(new PolynomialImpl("0")));
+  }
+
+  /**
+   * Testing isSame for atleast one term with same power.
+   */
+  @Test
+  public void getisSameTestSamePower() {
+    assertEquals(false, p.isSame(new PolynomialImpl("2x^2 +4x^1 -2")));
+  }
+
+  /**
+   * Testing isSame for no same power.
+   */
+  @Test
+  public void getisSameTestNoSamePower() {
+    assertEquals(false, p.isSame(new PolynomialImpl("3x^3 +4x^4 -5x^5")));
+  }
+
+  /**
+   * Testing the add Term method for non existant.
+   */
+  @Test
+  public void addTermTestNon() {
+    p.addTerm(4, 3);
+    assertEquals("3x^1 -3 4x^2 4x^3 ", p.toString());
+  }
+}
